@@ -1,13 +1,13 @@
 
 
 prompt_template = """ 
-Use the following pieces of information to answer the user's question.
-If you don't know the answer, just say that you don't know , don't try to make up an answer
 
-Context : {context}
-Question : {question}
 
-Only return the helpful answer below and nothing else.
-Helpful answer :
+Template:
+Context: {context}
+Question: {question}
+
+Helpful Response:
+[The generated response should be concise and relevant to the provided context and question, focusing on diseases and medicines. If the input is not within the medical domain, the chatbot should indicate its inability to assist on non-medical topics.]
 
 """
